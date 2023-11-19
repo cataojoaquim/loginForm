@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background-image: url(https://images.alphacoders.com/132/1328375.png);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-container {
+    width: 300px;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, .80);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .50);
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 8px;
+}
+.login-container h2 {
+    text-align: center;
+}
+.login-container label {
+    margin-top: 10px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login-container button {
+    background-color: #310112;
+    color: white;
+    font-weight: 800;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: all .5s;
+}
+
+.login-container button:hover {
+    background-color: white;
+    color: #310112;
+    font-size: 17px;
+    transition: all .5s;
+}
+
+.login-container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
